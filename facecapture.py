@@ -5,7 +5,7 @@ import cv2,sys,numpy,os
 face_cascade = cv2.CascadeClassifier("facerecfile.xml")
 webcam = cv2.VideoCapture(0)
 count= 1
-path = ("faces/valentino")
+path = ("faces/lacasadepapel")##put in the name of the person
 
 
 
@@ -23,6 +23,14 @@ while count <= 30:
 
 
 print(faces)
+
+
+
+
+
+
+
+
 
 
 
